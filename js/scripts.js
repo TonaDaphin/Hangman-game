@@ -23,3 +23,15 @@ function car(){
     document.getElementById("hold").innerHTML = answerArray;
     console.log(word);
 }
+var text = [];
+var i;
+for (i = 0; i < alphabet.length; i++) {
+  text += alphabet[i]+" ";
+  document.getElementById("buttons").innerHTML = text;
+
+  console.log (text)
+}
+
+
+
+    
