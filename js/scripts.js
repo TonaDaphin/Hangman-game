@@ -23,13 +23,17 @@ function car(){
     document.getElementById("hold").innerHTML = answerArray;
     console.log(word);
 }
-var text = [];
-var i;
-for (i = 0; i < alphabet.length; i++) {
-  text += alphabet[i]+" ";
-  document.getElementById("buttons").innerHTML = text;
-
-  console.log (text)
+for (var i = 0; i < alphabet.length; i++) {
+    var myButtons=document.getElementById("buttons");
+    var letters = document.createElement("ul");
+    letters.id="alphabet";
+    var list= document.createElement("li");
+    list.id="letter";
+    list.innerHTML=alphabet[i];
+  
+  
+  myButtons.appendChild(letters);
+  letters.appendChild(list);
 }
 
 
