@@ -4,7 +4,16 @@
 
 body {
     font-family: 'Blinker', sans-serif;
-    background-image: url('https://c.pxhere.com/photos/ea/8f/pixabay_board_game_hangman_letters_words_scrabble_game_board-1340216.jpg!d');
+    background-image: url('http://datagenetics.com/blog/april12012/hangmand.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+}
+
+.jum {
+    background-color: brown;
+}
+
+h2 {
+    padding: 5%;
 }

@@ -12,35 +12,39 @@
 
 <body>
     <div class="container">
-        <div class="jumbotron">
-            <div id="home">
-                <h2>
-                    Welcome To The Hangman game.
-                </h2>
+        <h2>HANGMAN GAME</h2><br>
+        <div class="row">
+
+
+            <div class="col-md-5" id="col1">
+                <p> Welcome to the <strong>ADVANCED HANGMAN GAME</strong> click <a href="https://www.wordwheels.co.uk/How-to-Play-Hangman">here</a> to get instructions on how you can play the game.</p>
+
+                <button type="button" onclick="start()">Play Game</button>
+
+                <div id="categories">
+                    <p>This Hangman game has got two categories.</p><br>
+                    <div class="ca">
+
+                        <div id="cars" onclick="car()">Cars</div> <br>
+                        <div id="animals" onclick="animal()">Animals</div>
+                        <br>
+                        <br>
+                        <p id="hold"></p>
+                    </div>
+                    <p>You can chose from the two which word in their category you want to guess.</p>
+
+                </div>
+
+            </div>
+            <div class="col-md-7">
+                <div id="buttons">
+
+
+                </div>
             </div>
         </div>
-        <h3> click <a href="">here</a> to see how to play this game .</h3>
 
-        <button type="button" onclick="start()">Play Game</button>
-
-        <div id="categories">
-            <p>This Hangman game has got two categories.</p><br>
-            <div class="ca">
-
-                <div id="cars" onclick="car()">Cars</div> <br>
-                <div id="animals" onclick="animal()">Animals</div>
-                <br>
-                <br>
-                <p id="hold"></p>
-            </div>
-            <p>You can chose from the two which word in their category you want to guess.</p>
-
-        </div>
-        <div id="buttons">
-
-        </div>
-    </div>
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
