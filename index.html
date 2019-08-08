@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <!-- <script>window.onload=function(){}</script> -->
+    <title>Hangman</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div id="home">
+                <h2>
+                    Welcome To The Hangman game.
+                </h2>
+            </div>
+        </div>
+        <h3> click <a href="">here</a> to see how to play this game .</h3>
+
+        <button type="button" onclick="start()">Play Game</button>
+
+        <div id="categories">
+            <p>This Hangman game has got two categories.</p><br>
+            <div class="ca">
+
+                <div id="cars" onclick="car()">Cars</div> <br>
+                <div id="animals" onclick="animal()">Animals</div>
+                <br>
+                <br>
+                <p id="hold"></p>
+            </div>
+            <p>You can chose from the two which word in their category you want to guess.</p>
+
+        </div>
+        <div id="buttons">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
