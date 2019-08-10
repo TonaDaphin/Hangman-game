@@ -16,26 +16,64 @@
     Welcome To The Hangman game.<br>
   </h2>
 
-  <h3> click <a href="">here</a> to see how to play this game .</h3>
-
-  <button type="button" onclick="start()">Play Game</button>
 </div>
 <div id="categories">
-  <p>This Hangman game has got two categories.</p><br>
+    <p>You can chose from the two which word in their category you want to guess.</p>
   <div class="ca">
  
     <div id="cars" onclick="car()">Cars</div> <br> 
     <div id="animals" onclick="animal()">Animals</div> 
 <br>
+
+<canvas id="canvas" height="300px" width="400px"></canvas>
   <br>
+
   <p id="hold"></p>
 </div>
-  <p>You can chose from the two which word in their category you want to guess.</p>
+  
 
 </div>
 <div id ="buttons">
-    
+    <button id="alphabet" value="a">a</button>
+    <button id="alphabet" value="b">b</button>
+    <button id="alphabet" value="c">c</button>
+    <button id="alphabet" value="a">e</button>
+    <button id="alphabet" value="b">f</button>
+    <button id="alphabet" value="c">g</button>
+    <button id="alphabet" value="a">h</button>
+    <button id="alphabet" value="b">i</button>
+    <button id="alphabet" value="c">j</button>
+    <button id="alphabet" value="a">k</button>
+    <button id="alphabet" value="b">m</button>
+    <button id="alphabet" value="c">n</button>
+    <button id="alphabet" value="a">o</button>
+    <button id="alphabet" value="b">p</button>
+    <button id="alphabet" value="c">q</button>
+    <button id="alphabet" value="a">r</button>
+    <button id="alphabet" value="b">s</button>
+    <button id="alphabet" value="c">t</button>
+    <button id="alphabet" value="a">u</button>
+    <button id="alphabet" value="b">v</button>
+    <button id="alphabet" value="c">w</button>
+    <button id="alphabet" value="a">x</button>
+    <button id="alphabet" value="b">y</button>
+    <button id="alphabet" value="c">z</button>
+
+       
 </div>
+
 <script src="script.js"></script>
+<p>Want something fun?</p>
+<input type = "button" value = "Click here" onclick = "showhappy()"><br><br>
+<div id = "myhDiv" style="display:none">
+  <img id = "myhImage" src = "dancing.gif">
+</div><br>
+<p>More?</p>
+<input type = "button" value = "How about this?" onclick = "showsad()"><br><br>
+<div id = "mysDiv" style="display:none">
+  <img id = "mysImage" src = "inyourface.gif">
+  <p>Aaah Go away!</p>
+</div><br>
+
 </body>
 </html>
