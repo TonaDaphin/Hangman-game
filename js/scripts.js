@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 var animals=["peguin"];
 var cars=["mercedes"];
@@ -88,3 +89,22 @@ function showhappy() {
 
 
     
+=======
+function showhappy() {
+  document.getElementById("myhDiv").style.display="block";
+  setTimeout("hideh()", 2000);  // 2 seconds
+}
+
+function hideh() {
+  document.getElementById("myhDiv").style.display="none";
+}
+
+function showsad() {
+  document.getElementById("mysDiv").style.display="block";
+  setTimeout("hides()", 2000);  // 2 seconds
+}
+
+function hides() {
+  document.getElementById("mysDiv").style.display="none";
+}
+>>>>>>> 3d01f842cfb06818fb9b28ff254c46add09fa21c
